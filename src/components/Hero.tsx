@@ -92,7 +92,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
         >
           <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-teal">
             <img 
-              src="/public/WhatsApp Image 2025-05-01 at 11.44.54 PM.jpeg" 
+              src="/WhatsApp Image 2025-05-01 at 11.44.54 PM.jpeg" 
               alt="Labhesh Mahajan" 
               className="w-full h-full object-cover"
             />
