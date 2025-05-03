@@ -49,7 +49,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
             transition={{ duration: 0.5, delay: 1 }}
             className="text-lg mb-8 max-w-lg"
           >
-            I'm a computer engineer specializing in building exceptional digital experiences.
+            I'm a Software Engineer specializing in building exceptional digital experiences.
             Currently focused on software engineering at Worcester Polytechnic Institute.
           </motion.p>
           
