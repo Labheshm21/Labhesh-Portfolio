@@ -1,0 +1,29 @@
+:root {
+  /* light mode */
+  --page-bg:      #f9fafb;   /* very light gray page background */
+  --card-bg:      #ffffff;   /* white cards */
+  --accent:       #4f46e5;   /* indigo */
+  --accent-bg:    #eef2ff;   /* pale indigo circle */
+  --fg-on-accent: #ffffff;   /* white text/icons on accent */
+}
+
+/* Option A) OS-level dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-bg:      #071421;
+    --card-bg:      #0a1124;
+    --accent:       #64ffda;  /* mint */
+    --accent-bg:    #112240;  /* deep blue circle */
+    --fg-on-accent: #0a192f;  /* near-black text/icons */
+  }
+}
+
+/* Option B) Class-based dark mode 
+   (if you prefer toggling via a “dark” class on <html> or <body>) */
+.dark {
+  --page-bg:      #071421;
+  --card-bg:      #0a1124;
+  --accent:       #64ffda;
+  --accent-bg:    #112240;
+  --fg-on-accent: #0a192f;
+}
